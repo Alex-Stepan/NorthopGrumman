@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="03aeafa0-ca25-4b82-ae03-8b2a71eeb761" name="Changes" comment="" />
+    <list default="true" id="03aeafa0-ca25-4b82-ae03-8b2a71eeb761" name="Changes" comment="Creating Framework" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -26,6 +26,9 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -35,8 +38,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1651609837464</updated>
-      <workItem from="1651609840629" duration="1590000" />
+      <workItem from="1651609840629" duration="2510000" />
     </task>
+    <task id="LOCAL-00001" summary="Creating Framework">
+      <created>1651611706129</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1651611706129</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -52,5 +63,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Creating Framework" />
+    <option name="LAST_COMMIT_MESSAGE" value="Creating Framework" />
   </component>
 </project>
