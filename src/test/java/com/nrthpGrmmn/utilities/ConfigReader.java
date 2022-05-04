@@ -22,7 +22,7 @@ public class ConfigReader {
     }
 
     /** 3. to get the value from properties */
-    public static String read(String key){
+    public static String getProperty(String key){
         return properties.getProperty(key);
     }
 

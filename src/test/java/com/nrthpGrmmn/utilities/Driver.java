@@ -17,7 +17,7 @@ public class Driver {
     /** 3. Create getDriver() in case if Driver was null */
     public static WebDriver getDriver() {
         //3.1. create obj-browserName using ConfigReader//read(String key)
-        String browserName = ConfigReader.read("browser");
+        String browserName = ConfigReader.getProperty("browser");
 
         //3.2. conditions for the driver:
         if(driver == null){
@@ -50,6 +50,8 @@ public class Driver {
             driver = null;
         }
     }
+
+    /** 5.  */
 
 
 }

@@ -1,0 +1,47 @@
+1. Create Cucumber BDD project "NorthopGrumman"
+2. Add Maven build tool
+3. Create pom.xml file
+4. in pom.xml file added next dependencies:
+    4.1. selenium-java 3.141.59
+    4.2. webdrivermanager 5.1.1
+    4.3. cucumber-java 7.3.3
+    4.4. cucumber-junit 7.3.3
+    4.5. testng 7.5
+    4.6. javafaker 1.0.2
+5. Create gitignore
+6. Setup connection with GitHub
+7. Create Page Object Module "nrthpGrmmn" under Java folder
+8. Create directory "resources" under "test"
+9. Create folder "features" under directory "resources"
+10. Create directory "config.properties" under "NorthopGrumman" project
+11. Create next folders under"nrthpGrmmn": pages, runners, step_definitions, tests, utilities
+12. Create class "CukesRunner" under folder "runners"
+13. import next:
+        import io.cucumber.junit.Cucumber;
+        import io.cucumber.junit.CucumberOptions;
+        import org.junit.runner.RunWith;
+            @RunWith(Cucumber.class)
+            @CucumberOptions( plugin, features, glue, dryRun, tags )
+14. Create class "ConfigReader" under folder "utilities"
+        public static String getProperty(String key){   return properties.getProperty(key); }
+15. Create class "Driver" under folder "utilities"
+        driver - instance
+        private Driver()
+        public static WebDriver getDriver()
+        public static void closeBrowser()
+16. Create abstract class "DriverTestBase" under folder "utilities" (superCalss)
+        public void setupWebDriver()
+        public void  closeBrowser()
+17. Create class "DriverUtilities" under folder "utilities"
+        public static void switchToWindow(String targetTitle)
+        public static List<String> getElementsText(List<WebElement> list)
+        public static void waitFor(int seconds)
+        public static WebElement waitForVisibility(By locator, int timeout)
+        public static void scrollToElement(WebElement element)
+        public static void selectByVisibleText(WebElement elementDropdown, String visibleText)
+        public static boolean elementIsDisplayed(List<WebElement> elements)
+        public static boolean waitForElementIsNotLocated(WebElement element)
+        public static int randomNumber(int a, int b)
+        public static boolean getIsCheck(List<WebElement> allCheckboxes,WebElement nextButton)
+18.
+
