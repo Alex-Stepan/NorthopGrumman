@@ -16,7 +16,7 @@
 10. Create directory "config.properties" under "NorthopGrumman" project
 11. Create next folders under"nrthpGrmmn": pages, runners, step_definitions, tests, utilities
 12. Create class "CukesRunner" under folder "runners"
-13. import next:
+13. import next into class "CukesRunner":
         import io.cucumber.junit.Cucumber;
         import io.cucumber.junit.CucumberOptions;
         import org.junit.runner.RunWith;
@@ -33,15 +33,15 @@
         public void setupWebDriver()
         public void  closeBrowser()
 17. Create class "DriverUtilities" under folder "utilities"
-        public static void switchToWindow(String targetTitle)
-        public static List<String> getElementsText(List<WebElement> list)
-        public static void waitFor(int seconds)
-        public static WebElement waitForVisibility(By locator, int timeout)
-        public static void scrollToElement(WebElement element)
-        public static void selectByVisibleText(WebElement elementDropdown, String visibleText)
-        public static boolean elementIsDisplayed(List<WebElement> elements)
-        public static boolean waitForElementIsNotLocated(WebElement element)
-        public static int randomNumber(int a, int b)
-        public static boolean getIsCheck(List<WebElement> allCheckboxes,WebElement nextButton)
+        17.1. public static void switchToWindow(String targetTitle)
+        17.2. public static List<String> getElementsText(List<WebElement> list)
+        17.3. public static void waitFor(int seconds)
+        17.4. public static WebElement waitForVisibility(By locator, int timeout)
+        17.5. public static void scrollToElement(WebElement element)
+        17.6. public static void selectByVisibleText(WebElement elementDropdown, String visibleText)
+        17.7. public static boolean elementIsDisplayed(List<WebElement> elements)
+        17.8. public static boolean waitForElementIsNotLocated(WebElement element)
+        17.9. public static int randomNumber(int a, int b)
+        17.10. public static boolean getIsCheck(List<WebElement> allCheckboxes,WebElement nextButton)
 18.
 
