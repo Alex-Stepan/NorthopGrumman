@@ -23,6 +23,15 @@ public class HomePage {
         @FindBy(xpath = "//*[@id=\"top\"]/img")
         public WebElement NorthopGrm_TopCorpLogo;
 
+            // Header Who We Are Bar List
+        @FindBy(xpath = "//*[@id=\"menu-item-8736\"]/a")
+        public WebElement WhoWeAreBarList;
+
+
+
+        @FindBy(partialLinkText = "menu-item menu-item-type-custom menu-item-object-custom menu-item")
+        public WebElement WhoWeAreBarListElement;
+
 
 
 

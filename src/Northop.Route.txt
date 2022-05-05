@@ -8,6 +8,7 @@
     4.4. cucumber-junit 7.3.3
     4.5. testng 7.5
     4.6. javafaker 1.0.2
+    4.7. junit-jupiter-api 5.8.2
 5. Create gitignore
 6. Setup connection with GitHub
 7. Create Page Object Module "nrthpGrmmn" under Java folder
